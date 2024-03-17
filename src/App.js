@@ -1,9 +1,15 @@
-function App() {
+import { useState } from "react";
+import UlkeListe from "./UlkeList";
 
-  return (
-    <>
-    </>
-  );
+function App() {
+ return (
+  <>
+  <div className="container my-3">
+    <UlkeListe />
+  </div>
+
+  </>
+ )
 }
 
 export default App;
